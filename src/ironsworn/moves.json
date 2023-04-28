@@ -1820,32 +1820,5 @@
         "Text": "When **you spend an extended time recovering in a safe place while a threat is active**, do any of the following.\n\n  * Clear any marked conditions.\n  * Set your health, spirit, supply, and companion health to their maximum values.\n  * Set your momentum to its reset value.\n\nThen, for each active threat, [Advance a Threat](Ironsworn/Moves/Legacy/Advance_a_Threat)."
       }
     ]
-  },
-  {
-    "$id": "Ironsworn/Moves/Rarity",
-    "Name": "Rarity",
-    "Description": "History is often chronicled through objects of power. Wars and accords, struggles and triumphs, love and hate, sacrifice and death—these legacies can imbue objects with cultural importance and supernatural gifts.\n\nIn **Ironsworn**, these items are called *rarities*. They may be handed down through generations, lost or hidden away in the depths of perilous sites, coveted by powerful forces, or forgotten and discarded. When you obtain a rarity through the course of your story, you gain a subtle but lasting impact on your character and their abilities.",
-    "Source": { "Title": "Ironsworn: Delve", "Authors": ["Shawn Tomkin"] },
-    "Display": { "Title": "Rarity Moves" },
-    "Optional": true,
-    "Moves": [
-      {
-        "Source": {
-          "Title": "Ironsworn: Delve",
-          "Authors": ["Shawn Tomkin"],
-          "Page": 176
-        },
-        "Category": "Ironsworn/Moves/Rarity",
-        "$id": "Ironsworn/Moves/Rarity/Wield_a_Rarity",
-        "Name": "Wield a Rarity",
-        "Optional": true,
-        "Display": { "Title": "Wield a Rarity" },
-        "Trigger": {
-          "$id": "Ironsworn/Moves/Rarity/Wield_a_Rarity/Trigger",
-          "Text": "When you make a move aided by an augmented asset..."
-        },
-        "Text": "When **you make a move aided by an augmented asset**, roll your rarity die in place of your action die.\n\nOn **any result** with 6 showing on the rarity die, the power of the rarity manifests in a dramatic and obvious way. You score an automatic **strong hit** and take +1 momentum.\n\nOn a **hit** with 5 showing on the rarity die, the power of the rarity manifests in a subtle way. Take +1 momentum.\n\nOn a **miss** with 1 showing on the rarity die, the rarity’s power fails or works against you."
-      }
-    ]
   }
 ]
