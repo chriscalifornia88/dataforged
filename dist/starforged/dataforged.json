@@ -11780,151 +11780,6 @@
                         "Date": "050622"
                     },
                     "Asset Type": "Starforged/Assets/Deed",
-                    "$id": "Starforged/Assets/Deed/Revenant",
-                    "Name": "Revenant",
-                    "Display": { "Title": "Revenant", "Color": "#40834f" },
-                    "Usage": { "Shared": false },
-                    "Requirement": "Once you [Face Death](Starforged/Moves/Threshold/Face_Death)...",
-                    "Abilities": [
-                        {
-                            "$id": "Starforged/Assets/Deed/Revenant/Abilities/1",
-                            "Text": "When you are at 0 health, and [Endure Harm](Starforged/Moves/Suffer/Endure_Harm) or [Face Death](Starforged/Moves/Threshold/Face_Death), add +1. You may then reroll your action die if its value is less than your spirit.",
-                            "Enabled": true,
-                            "Alter Moves": [
-                                {
-                                    "$id": "Starforged/Assets/Deed/Revenant/Abilities/1/Alter_Moves/1",
-                                    "Moves": [
-                                        "Starforged/Moves/Suffer/Endure_Harm",
-                                        "Starforged/Moves/Threshold/Face_Death"
-                                    ],
-                                    "Trigger": {
-                                        "$id": "Starforged/Assets/Deed/Revenant/Abilities/1/Alter_Moves/1/Trigger",
-                                        "By": { "Player": true, "Ally": false },
-                                        "Options": [
-                                            {
-                                                "$id": "Starforged/Assets/Deed/Revenant/Abilities/1/Alter_Moves/1/Trigger/Options/1",
-                                                "Text": "When you are at 0 health",
-                                                "Roll type": "Action roll",
-                                                "Method": "Inherit",
-                                                "Using": []
-                                            }
-                                        ]
-                                    },
-                                    "Text": "Add +1.",
-                                    "Outcomes": {
-                                        "$id": "Starforged/Assets/Deed/Revenant/Abilities/1/Alter_Moves/1/Outcomes",
-                                        "Strong Hit": {
-                                            "Reroll": {
-                                                "Text": "You may reroll your action die if its value is less than your spirit.",
-                                                "Dice": "Action die"
-                                            },
-                                            "$id": "Starforged/Assets/Deed/Revenant/Abilities/1/Alter_Moves/1/Outcomes/Miss"
-                                        },
-                                        "Weak Hit": {
-                                            "Reroll": {
-                                                "Text": "You may reroll your action die if its value is less than your spirit.",
-                                                "Dice": "Action die"
-                                            },
-                                            "$id": "Starforged/Assets/Deed/Revenant/Abilities/1/Alter_Moves/1/Outcomes/Miss"
-                                        },
-                                        "Miss": {
-                                            "Reroll": {
-                                                "Text": "You may reroll your action die if its value is less than your spirit.",
-                                                "Dice": "Action die"
-                                            },
-                                            "$id": "Starforged/Assets/Deed/Revenant/Abilities/1/Alter_Moves/1/Outcomes/Miss"
-                                        }
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "$id": "Starforged/Assets/Deed/Revenant/Abilities/2",
-                            "Text": "When you [Take Decisive Action](Starforged/Moves/Combat/Take_Decisive_Action) by bringing death to a foe, you may burn momentum to zero out one (not both) of the challenge dice if your momentum is greater than the value of that die. If you do, [Endure Stress](Starforged/Moves/Suffer/Endure_Stress) (-2).",
-                            "Enabled": false,
-                            "Alter Moves": [
-                                {
-                                    "$id": "Starforged/Assets/Deed/Revenant/Abilities/2/Alter_Moves/1",
-                                    "Moves": ["Starforged/Moves/Combat/Take_Decisive_Action"],
-                                    "Trigger": {
-                                        "$id": "Starforged/Assets/Deed/Revenant/Abilities/2/Alter_Moves/1/Trigger",
-                                        "By": { "Player": true, "Ally": false },
-                                        "Options": [
-                                            {
-                                                "$id": "Starforged/Assets/Deed/Revenant/Abilities/2/Alter_Moves/1/Trigger/Options/1",
-                                                "Text": "By bringing death to a foe",
-                                                "Roll type": "Progress roll",
-                                                "Method": "Inherit",
-                                                "Using": []
-                                            }
-                                        ]
-                                    },
-                                    "Outcomes": {
-                                        "$id": "Starforged/Assets/Deed/Revenant/Abilities/2/Alter_Moves/1/Outcomes",
-                                        "Strong Hit": {
-                                            "Text": "You may burn momentum to zero out one (not both) of the challenge dice if your momentum is greater than the value of that die. If you do, [Endure Stress](Starforged/Moves/Suffer/Endure_Stress) (-2).",
-                                            "$id": "Starforged/Assets/Deed/Revenant/Abilities/2/Alter_Moves/1/Outcomes/Miss"
-                                        },
-                                        "Weak Hit": {
-                                            "Text": "You may burn momentum to zero out one (not both) of the challenge dice if your momentum is greater than the value of that die. If you do, [Endure Stress](Starforged/Moves/Suffer/Endure_Stress) (-2).",
-                                            "$id": "Starforged/Assets/Deed/Revenant/Abilities/2/Alter_Moves/1/Outcomes/Miss"
-                                        },
-                                        "Miss": {
-                                            "Text": "You may burn momentum to zero out one (not both) of the challenge dice if your momentum is greater than the value of that die. If you do, [Endure Stress](Starforged/Moves/Suffer/Endure_Stress) (-2).",
-                                            "$id": "Starforged/Assets/Deed/Revenant/Abilities/2/Alter_Moves/1/Outcomes/Miss"
-                                        }
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "$id": "Starforged/Assets/Deed/Revenant/Abilities/3",
-                            "Text": "When you [Gather Information](Starforged/Moves/Adventure/Gather_Information) by studying a place where death left its mark, you may roll +heart. If you do, take +1 momentum on a hit. On a strong hit with a match, you experience a detailed vision or insightful revelation of what occurred here; take +1 momentum more.",
-                            "Enabled": false,
-                            "Alter Moves": [
-                                {
-                                    "$id": "Starforged/Assets/Deed/Revenant/Abilities/3/Alter_Moves/1",
-                                    "Moves": ["Starforged/Moves/Adventure/Gather_Information"],
-                                    "Trigger": {
-                                        "$id": "Starforged/Assets/Deed/Revenant/Abilities/3/Alter_Moves/1/Trigger",
-                                        "By": { "Player": true, "Ally": false },
-                                        "Options": [
-                                            {
-                                                "$id": "Starforged/Assets/Deed/Revenant/Abilities/3/Alter_Moves/1/Trigger/Options/1",
-                                                "Text": "By studying a place where death left its mark",
-                                                "Roll type": "Action roll",
-                                                "Method": "Any",
-                                                "Using": ["Heart"]
-                                            }
-                                        ]
-                                    },
-                                    "Outcomes": {
-                                        "$id": "Starforged/Assets/Deed/Revenant/Abilities/3/Alter_Moves/1/Outcomes",
-                                        "Strong Hit": {
-                                            "Text": "Take +1 momentum.",
-                                            "With a Match": {
-                                                "Text": "You experience a detailed vision or insightful revelation of what occurred here. Take +2 momentum.",
-                                                "$id": "Starforged/Assets/Deed/Revenant/Abilities/3/Alter_Moves/1/Outcomes/Strong_Hit/With_a_Match"
-                                            },
-                                            "$id": "Starforged/Assets/Deed/Revenant/Abilities/3/Alter_Moves/1/Outcomes/Strong_Hit"
-                                        },
-                                        "Weak Hit": {
-                                            "Text": "Take +1 momentum.",
-                                            "$id": "Starforged/Assets/Deed/Revenant/Abilities/3/Alter_Moves/1/Outcomes/Weak_Hit"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "Source": {
-                        "Title": "Ironsworn: Starforged Assets",
-                        "Authors": ["Shawn Tomkin"],
-                        "Date": "050622"
-                    },
-                    "Asset Type": "Starforged/Assets/Deed",
                     "$id": "Starforged/Assets/Deed/Survivor",
                     "Name": "Survivor",
                     "Display": { "Title": "Survivor", "Color": "#40834f" },
@@ -14356,16 +14211,16 @@
                             }
                         ]
                     },
-                    "Text": "**When you encounter a situation where death is an immediate and unavoidable outcome**, you are dead. **When you are instead brought to the brink of death with a chance for recovery or redemption**, roll +heart.\n\nOn a **strong hit**, you are cast back into the mortal world.\n\nOn a **weak hit**, choose one.\n\n  * You die, but not before making a noble sacrifice. Envision your final moments.\n  * There is more to be done. Envision what is revealed or asked of you at death's door, and [Swear an Iron Vow](Starforged/Moves/Quest/Swear_an_Iron_Vow) to complete an extreme quest. You return to the mortal world and must mark **doomed**. When you complete the deathbound quest, clear the impact.\n\nOn a **miss**, you are dead.",
+                    "Text": "**When you encounter a situation where death is an immediate and unavoidable outcome**, you are dead. **When you are instead brought to the brink of death with a chance for recovery or redemption**, roll +heart.\n\nOn a **strong hit**, you regain consciousness and survive.\n\nOn a **weak hit**, choose one.\n\n  * You die, but not before making a noble sacrifice. Envision your final moments.\n  * Just before death,strange multi-dimensional creatures revitalize you, for a cost... [Swear an Iron Vow](Starforged/Moves/Quest/Swear_an_Iron_Vow) to complete an extreme quest. You are revived and must mark **doomed**. When you complete the deathbound quest, clear the impact.\n\nOn a **miss**, you are dead.",
                     "Outcomes": {
                         "$id": "Starforged/Moves/Threshold/Face_Death/Outcomes",
                         "Strong Hit": {
                             "$id": "Starforged/Moves/Threshold/Face_Death/Outcomes/Strong_Hit",
-                            "Text": "You are cast back into the mortal world."
+                            "Text": "You regain consciousness and survive."
                         },
                         "Weak Hit": {
                             "$id": "Starforged/Moves/Threshold/Face_Death/Outcomes/Weak_Hit",
-                            "Text": "Choose one.\n\n  * You die, but not before making a noble sacrifice. Envision your final moments.\n  * There is more to be done. Envision what is revealed or asked of you at death's door, and [Swear an Iron Vow](Starforged/Moves/Quest/Swear_an_Iron_Vow) to complete an extreme quest. You return to the mortal world and must mark **doomed**. When you complete the deathbound quest, clear the impact."
+                            "Text": "Choose one.\n\n  * You die, but not before making a noble sacrifice. Envision your final moments.\n  * Just before death,strange multi-dimensional creatures revitalize you, for a cost... [Swear an Iron Vow](Starforged/Moves/Quest/Swear_an_Iron_Vow) to complete an extreme quest. You are revived and must mark **doomed**. When you complete the deathbound quest, clear the impact."
                         },
                         "Miss": {
                             "$id": "Starforged/Moves/Threshold/Face_Death/Outcomes/Miss",
