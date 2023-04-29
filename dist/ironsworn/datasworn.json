@@ -1126,45 +1126,6 @@
                         "Url": "https://shawn-tomkin.itch.io/ironsworn"
                     },
                     "Asset Type": "Ironsworn/Assets/Path",
-                    "$id": "Ironsworn/Assets/Path/Blade-Bound",
-                    "Name": "Blade-Bound",
-                    "Display": { "Title": "Blade-Bound" },
-                    "Usage": { "Shared": false },
-                    "Inputs": [
-                        {
-                            "Input Type": "Text",
-                            "$id": "Ironsworn/Assets/Path/Blade-Bound/Inputs/Name",
-                            "Name": "Name",
-                            "Adjustable": false
-                        }
-                    ],
-                    "Requirement": "Once you mark a bond with a kin-blade, a sentient weapon imbued with the spirit of your ancestor...",
-                    "Abilities": [
-                        {
-                            "$id": "Ironsworn/Assets/Path/Blade-Bound/Abilities/1",
-                            "Text": "When you [Enter the Fray](Ironsworn/Moves/Combat/Enter_the_Fray) or [Draw the Circle](Ironsworn/Moves/Relationship/Draw_the_Circle) while wielding your kin-blade, add +1 and take +1 momentum on a hit.",
-                            "Enabled": false
-                        },
-                        {
-                            "$id": "Ironsworn/Assets/Path/Blade-Bound/Abilities/2",
-                            "Text": "When you [Gather Information](Ironsworn/Moves/Adventure/Gather_Information) by listening to the whispers of your kin-blade, add +1 and take +2 momentum on a hit. Then, [Endure Stress](Ironsworn/Moves/Suffer/Endure_Stress) (2 stress).",
-                            "Enabled": false
-                        },
-                        {
-                            "$id": "Ironsworn/Assets/Path/Blade-Bound/Abilities/3",
-                            "Text": "When you [Strike](Ironsworn/Moves/Combat/Strike) with your kin-blade to inflict savage harm (decide before rolling), add +1 and inflict +2 harm on a hit. Then, [Endure Stress](Ironsworn/Moves/Suffer/Endure_Stress) (2 stress).",
-                            "Enabled": false
-                        }
-                    ]
-                },
-                {
-                    "Source": {
-                        "Title": "Ironsworn Assets",
-                        "Authors": ["Shawn Tomkin"],
-                        "Date": "060122",
-                        "Url": "https://shawn-tomkin.itch.io/ironsworn"
-                    },
-                    "Asset Type": "Ironsworn/Assets/Path",
                     "$id": "Ironsworn/Assets/Path/Bonded",
                     "Name": "Bonded",
                     "Display": { "Title": "Bonded" },
