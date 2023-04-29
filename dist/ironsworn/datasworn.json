@@ -1877,7 +1877,7 @@
                         },
                         {
                             "$id": "Ironsworn/Assets/Path/Veteran/Abilities/3",
-                            "Text": "When you [Resupply](Ironsworn/Moves/Adventure/Resupply) by looting the dead on a field of battle, add +1 and take +1 momentum on a hit.",
+                            "Text": "When you [Resupply](Ironsworn/Moves/Adventure/Resupply) by gathering dropped items on a field of battle, add +1 and take +1 momentum on a hit.",
                             "Enabled": false
                         }
                     ]
