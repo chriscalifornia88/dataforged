@@ -458,7 +458,7 @@ export declare interface IAssetState extends IHasName {
  */
 export declare interface IAssetType extends IHasName, IHasId, IHasDescription, IHasDisplay, IHasSource, Partial<IHasAliases> {
     /**
-     * @example "Ironsworn/Assets/Ritual"
+     * @example "Ironsworn/Assets/Scene"
      * @example "Starforged/Assets/Command_Vehicle"
      * @pattern ^(Starforged|Ironsworn)/Assets/[A-z_-]+$
      */
@@ -468,7 +468,7 @@ export declare interface IAssetType extends IHasName, IHasId, IHasDescription, I
      */
     Assets: IAsset[];
     /**
-     * @example "Ritual"
+     * @example "Scene"
      * @example "Command Vehicle"
      */
     Name: string;
@@ -2131,7 +2131,7 @@ export declare type KeysWithValuesOfType<T, V> = keyof {
 export declare enum LocationTheme {
     Chaotic = "Chaotic",
     Fortified = "Fortified",
-    Haunted = "Haunted",
+    Harrowed = "Harrowed",
     Infested = "Infested",
     Inhabited = "Inhabited",
     Mechanical = "Mechanical",
@@ -2506,9 +2506,6 @@ export declare enum RollableOraclesSF {
     Location_Themes_Fortified_Feature = "Starforged/Oracles/Location_Themes/Fortified/Feature",
     Location_Themes_Fortified_Opportunity = "Starforged/Oracles/Location_Themes/Fortified/Opportunity",
     Location_Themes_Fortified_Peril = "Starforged/Oracles/Location_Themes/Fortified/Peril",
-    Location_Themes_Haunted_Feature = "Starforged/Oracles/Location_Themes/Haunted/Feature",
-    Location_Themes_Haunted_Opportunity = "Starforged/Oracles/Location_Themes/Haunted/Opportunity",
-    Location_Themes_Haunted_Peril = "Starforged/Oracles/Location_Themes/Haunted/Peril",
     Location_Themes_Infested_Feature = "Starforged/Oracles/Location_Themes/Infested/Feature",
     Location_Themes_Infested_Opportunity = "Starforged/Oracles/Location_Themes/Infested/Opportunity",
     Location_Themes_Infested_Peril = "Starforged/Oracles/Location_Themes/Infested/Peril",

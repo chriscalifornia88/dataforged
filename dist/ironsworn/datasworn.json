@@ -921,7 +921,7 @@
                         {
                             "$id": "Ironsworn/Assets/Companion/Owl/Abilities/2",
                             "Name": "Sage",
-                            "Text": "When you leverage your owl’s secret knowledge to perform a ritual, add +1 or take +1 momentum on a hit (decide before rolling).",
+                            "Text": "When you leverage your owl’s secret knowledge to perform a scene, add +1 or take +1 momentum on a hit (decide before rolling).",
                             "Enabled": false
                         },
                         {
@@ -995,7 +995,7 @@
             },
             "$id": "Ironsworn/Assets/Path",
             "Name": "Path",
-            "Description": "Paths represent your background, interests, training, and skills. They provide mechanical and narrative advantages, but also reflect who you are and how you interact with the world. For example, a **Ritualist** would likely have a different outlook than a **Veteran**. Choosing both those paths can reflect an evolution of your character or an interesting background.",
+            "Description": "Paths represent your background, interests, training, and skills. They provide mechanical and narrative advantages, but also reflect who you are and how you interact with the world. For example, a **Sceneist** would likely have a different outlook than a **Veteran**. Choosing both those paths can reflect an evolution of your character or an interesting background.",
             "Display": { "Title": "Paths" },
             "Usage": { "Shared": false },
             "Assets": [
@@ -1294,36 +1294,6 @@
                         {
                             "$id": "Ironsworn/Assets/Path/Empowered/Abilities/3",
                             "Text": "When you forgo your title or lineage and [Forge a Bond](Ironsworn/Moves/Relationship/Forge_a_Bond) as an equal, or when you [Swear an Iron Vow](Ironsworn/Moves/Quest/Swear_an_Iron_Vow) to serve someone of a lower station, add +1 and take +1 momentum or +1 spirit on a hit.",
-                            "Enabled": false
-                        }
-                    ]
-                },
-                {
-                    "Source": {
-                        "Title": "Ironsworn Assets",
-                        "Authors": ["Shawn Tomkin"],
-                        "Date": "060122",
-                        "Url": "https://shawn-tomkin.itch.io/ironsworn"
-                    },
-                    "Asset Type": "Ironsworn/Assets/Path",
-                    "$id": "Ironsworn/Assets/Path/Fated",
-                    "Name": "Fated",
-                    "Display": { "Title": "Fated" },
-                    "Usage": { "Shared": false },
-                    "Abilities": [
-                        {
-                            "$id": "Ironsworn/Assets/Path/Fated/Abilities/1",
-                            "Text": "When you [Face Death](Ironsworn/Moves/Suffer/Face_Death) or [Face Desolation](Ironsworn/Moves/Suffer/Face_Desolation) while your epic background vow is unfulfilled, it is not yet your time. Instead of rolling, you may take an automatic strong hit. If you do, this asset counts as a debility (and you no longer have this protection) until you next [Reach a Milestone](Ironsworn/Moves/Quest/Reach_a_Milestone) on the background vow.",
-                            "Enabled": true
-                        },
-                        {
-                            "$id": "Ironsworn/Assets/Path/Fated/Abilities/2",
-                            "Text": "When you [Reach a Milestone](Ironsworn/Moves/Quest/Reach_a_Milestone) on your background vow, take +2 momentum or +1 spirit.",
-                            "Enabled": false
-                        },
-                        {
-                            "$id": "Ironsworn/Assets/Path/Fated/Abilities/3",
-                            "Text": "For every two boxes filled on your background vow progress track, take 1 experience. When you [Fulfill Your Vow](Ironsworn/Moves/Quest/Fulfill_Your_Vow), your fate is at hand. Envision your final sacrifice and reroll any dice.",
                             "Enabled": false
                         }
                     ]
@@ -5246,7 +5216,7 @@
                             "Floor": 32,
                             "Ceiling": 32,
                             "$id": "Ironsworn/Oracles/Action_and_Theme/Theme/32",
-                            "Result": "Superstition"
+                            "Result": "Belief"
                         },
                         {
                             "Floor": 33,
@@ -6629,7 +6599,7 @@
                             "Floor": 31,
                             "Ceiling": 45,
                             "$id": "Ironsworn/Oracles/Settlement/Name/31-45",
-                            "Result": "**A creature.** Why have the people of this settlement chosen this creature as their totem? How is it represented in art or rituals?",
+                            "Result": "**A creature.** Why have the people of this settlement chosen this creature as their totem? How is it represented in art or scenes?",
                             "Oracle rolls": ["Ironsworn/Oracles/Settlement/Name/Creature"]
                         },
                         {
@@ -6864,7 +6834,7 @@
                             "Name": "Creature",
                             "Member of": "Ironsworn/Oracles/Settlement/Name",
                             "Category": "Ironsworn/Oracles/Settlement",
-                            "Description": "**A creature.** Why have the people of this settlement chosen this creature as their totem? How is it represented in art or rituals?",
+                            "Description": "**A creature.** Why have the people of this settlement chosen this creature as their totem? How is it represented in art or scenes?",
                             "Display": {
                                 "Title": "Creature",
                                 "Table": {
@@ -13430,7 +13400,7 @@
                             "Floor": 31,
                             "Ceiling": 32,
                             "$id": "Ironsworn/Oracles/Site_Name/Description/31-32",
-                            "Result": "Haunted"
+                            "Result": "Harrowed"
                         },
                         {
                             "Floor": 33,
@@ -15471,7 +15441,7 @@
                             "Floor": 49,
                             "Ceiling": 61,
                             "$id": "Ironsworn/Oracles/Site_Nature/Theme/49-61",
-                            "Result": "Haunted"
+                            "Result": "Harrowed"
                         },
                         {
                             "Floor": 62,
@@ -15802,7 +15772,7 @@
                             "Floor": 80,
                             "Ceiling": 80,
                             "$id": "Ironsworn/Oracles/Monstrosity/Primary_Form/80",
-                            "Result": "Elemental"
+                            "Result": "Environmental"
                         },
                         {
                             "Floor": 81,
@@ -16251,7 +16221,7 @@
                             "Floor": 95,
                             "Ceiling": 95,
                             "$id": "Ironsworn/Oracles/Monstrosity/Abilities/95",
-                            "Result": "Enact rituals"
+                            "Result": "Enact scenes"
                         },
                         {
                             "Floor": 96,
