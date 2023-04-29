@@ -5305,7 +5305,7 @@
                             "Floor": 5,
                             "Ceiling": 5,
                             "$id": "Ironsworn/Oracles/Place/Location/5",
-                            "Result": "Mystical Site"
+                            "Result": "Unusual Site"
                         },
                         {
                             "Floor": 6,
@@ -5637,7 +5637,7 @@
                             "Floor": 4,
                             "Ceiling": 4,
                             "$id": "Ironsworn/Oracles/Place/Coastal_Waters_Location/4",
-                            "Result": "Mystical Site"
+                            "Result": "Unusual Site"
                         },
                         {
                             "Floor": 5,
