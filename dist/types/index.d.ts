@@ -2732,15 +2732,12 @@ export declare enum SettingTruthName {
     Communities = "Communities",
     Iron = "Iron",
     Laws = "Laws",
-    Religion = "Religion",
-    Magic = "Magic",
     CommunicationAndData = "Communication and Data",
     Medicine = "Medicine",
     ArtificialIntelligence = "Artificial Intelligence",
     War = "War",
     Lifeforms = "Lifeforms",
-    Precursors = "Precursors",
-    Horrors = "Horrors"
+    Precursors = "Precursors"
 }
 
 /**
