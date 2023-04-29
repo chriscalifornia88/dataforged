@@ -29094,8 +29094,8 @@
                             "Floor": 64,
                             "Ceiling": 67,
                             "$id": "Starforged/Oracles/Factions/Dominion/64-67",
-                            "Result": "Mysticism",
-                            "Attributes": [{ "Key": "Dominion", "Value": "Mysticism" }]
+                            "Result": "Intrigue",
+                            "Attributes": [{ "Key": "Dominion", "Value": "Intrigue" }]
                         },
                         {
                             "Floor": 68,
